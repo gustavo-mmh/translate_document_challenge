@@ -10,7 +10,7 @@ setup(
     long_description=readme,
     author='Gustavo M. Mello',
     author_email='gustavo-mmello@hotmail.con',
-    url='https://github.com/gustavommh/translate_document_challenge',
+    url='https://github.com/gustavo-mmh/translate_document_challenge',
     license=license,
     packages=find_packages(exclude=('tests', 'docs')),
     install_requires=[
