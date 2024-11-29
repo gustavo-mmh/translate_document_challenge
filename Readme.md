@@ -28,7 +28,16 @@ Python
     ```bash
     pip install -r requirements.txt
 
-4. Execute o script principal:
+4. Crie um arquivo .env com as configurações do seu Azure:
+    # Exemplo de arquivo .env
+    ```bash
+    AZURE_OPENAI_KEY:  
+    AZURE_DEPLOYMENT_NAME:
+    AZURE_MODEL_NAME:
+    AZURE_API_VERSION:
+    AZURE_ENDPOINT:
+
+5. Execute o script principal:
     ```bash
     python main.py
 
